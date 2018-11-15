@@ -33,4 +33,5 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {}
+, "-vs-binding":{"BeforeBuild":["watch"]}
 }

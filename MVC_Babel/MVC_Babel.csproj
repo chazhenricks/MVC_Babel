@@ -169,7 +169,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Scripts\build\bundle.js" />
-    <Content Include="Scripts\build\Content\main.bundle.css" />
     <Content Include="Scripts\src\person.js" />
     <Content Include="webpack.config.js" />
     <Content Include="package.json" />

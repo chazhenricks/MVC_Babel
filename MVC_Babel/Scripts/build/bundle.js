@@ -86,17 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./Content/Site.scss":
-/*!***************************!*\
-  !*** ./Content/Site.scss ***!
-  \***************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./Content/Site.scss?");
-
-/***/ }),
-
 /***/ "./Scripts/src/index.js":
 /*!******************************!*\
   !*** ./Scripts/src/index.js ***!
@@ -105,7 +94,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./Cont
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _person__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./person */ \"./Scripts/src/person.js\");\n\nvar person = new _person__WEBPACK_IMPORTED_MODULE_0__[\"default\"](\"Chaz\", 29);\nperson.speak();\n\nvar thing = function thing(blah) {\n  console.log(blah);\n};\n\nthing(\"ES6!!!\");\n\n//# sourceURL=webpack:///./Scripts/src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _person__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./person */ \"./Scripts/src/person.js\");\n\nvar person = new _person__WEBPACK_IMPORTED_MODULE_0__[\"default\"](\"Chaz\", 29);\nperson.speak();\n\nvar thing = function thing(blah) {\n  console.log(blah);\n};\n\nthing(\"This is a change\");\n\n//# sourceURL=webpack:///./Scripts/src/index.js?");
 
 /***/ }),
 
@@ -122,13 +111,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ }),
 
 /***/ 0:
-/*!********************************************************!*\
-  !*** multi ./Scripts/src/index.js ./Content/Site.scss ***!
-  \********************************************************/
+/*!************************************!*\
+  !*** multi ./Scripts/src/index.js ***!
+  \************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./Scripts/src/index.js */\"./Scripts/src/index.js\");\nmodule.exports = __webpack_require__(/*! ./Content/Site.scss */\"./Content/Site.scss\");\n\n\n//# sourceURL=webpack:///multi_./Scripts/src/index.js_./Content/Site.scss?");
+eval("module.exports = __webpack_require__(/*! ./Scripts/src/index.js */\"./Scripts/src/index.js\");\n\n\n//# sourceURL=webpack:///multi_./Scripts/src/index.js?");
 
 /***/ })
 

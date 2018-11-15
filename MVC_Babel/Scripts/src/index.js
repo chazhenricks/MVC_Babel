@@ -7,4 +7,4 @@ const thing = blah => {
     console.log(blah);
 }
 
-thing("ES6!!!");
+thing("This is a change");

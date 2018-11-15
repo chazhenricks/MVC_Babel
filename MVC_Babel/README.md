@@ -36,3 +36,28 @@ NPM (Short for Node Package Manager) is the package manager used for maintaining
 
 Luckily, when you install Node, you also get NPM. 
 To check to see if you have NPM installed, run `npm -v` anywhere in your terminal and it will return the version number currently installed, if any. 
+
+
+## Getting Started
+#### 1. `npm init` 
+The first thing we need to do is initialize our project to work with NPM. Running `npm init` in the root directory of your project will kick this process off. 
+This creates a `package.json` file in the root of your project. This file is kind of the traffic cop of how npm modules interact with the rest of the projects. 
+
+>Note: This project already has a 'package.json` file set up with all you need. 
+
+
+#### 2. `npm install` 
+We are going to need a few packages to get Webpack/Bable up and running. To install these packages, we include them as devDependencies in our `package.json` file. 
+To install new packages, type `npm install ${package-name} --save-dev` in the root directory of your project. This looks in npm for a package, downloads it, and adds it to your `package.json`
+file. 
+
+When installing packages from NPM, they are placed in a `/node_modules/` directory on the same level as your `package.json` file. This is similiar to the `References` directory in a C# project. 
+However, this folder contains files needed for development and often contains _lots_ of directories/files, so this is usually ignored in source control for space reasons. Because of this, if you are starting
+a project that some one else has created, and that project has a list of dependencies in the `package.json` file, all you need to do is type `npm install` in the root directory of the project and npm will install all of them for you. 
+
+#### 3. `webpack.config.js`
+We will now need to configure our `webpack.config.js` file. This is a configuration file that tells webpack how to webpack. 
+It is here you will define your entry points, where to dump the bundled file, and what to do to each file before it gets added to the bundle. 
+
+####4. `.babelrc`
+The next file we need to configure is our `.babelrc` file. This is similiar to the `webpack.config.js` file, but for Babel. This just tells babel how to babel. 
