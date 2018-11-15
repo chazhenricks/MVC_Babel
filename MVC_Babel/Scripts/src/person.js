@@ -6,6 +6,6 @@
 
 
     speak() {
-        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old and I am a super cool dude!`);
+        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old and I am doing a thing!`);
     }
 }
